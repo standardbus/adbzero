@@ -39,27 +39,27 @@ export const APP_NAME = 'ADBZero'
 /**
  * URL repository GitHub
  */
-export const GITHUB_URL = 'https://github.com/ADBZero/adbzero'
+export const GITHUB_URL = ''
 
 /**
  * URL canale Telegram
  */
-export const TELEGRAM_URL = 'https://t.me/adbzero'
+export const TELEGRAM_URL = ''
 
 /**
  * URL profilo X (Twitter)
  */
-export const TWITTER_URL = 'https://x.com/standardbus'
+export const TWITTER_URL = ''
 
 /**
  * URL profilo Bluesky
  */
-export const BLUESKY_URL = 'https://bsky.app/profile/hoxen.bsky.social'
+export const BLUESKY_URL = ''
 
 /**
  * URL community Reddit
  */
-export const REDDIT_URL = 'https://www.reddit.com/user/StandardBus/'
+export const REDDIT_URL = ''
 
 /**
  * Timeout per i comandi ADB (ms)
