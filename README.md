@@ -7,7 +7,7 @@
 
 ![version](https://img.shields.io/badge/version-1.1.0-58A6FF?style=for-the-badge)
 ![stars](https://img.shields.io/github/stars/standardbus/adbzero?style=for-the-badge&color=3FB950&label=stars)
-![license](https://img.shields.io/badge/license-MIT-8957E5?style=for-the-badge)
+![license](https://img.shields.io/github/license/standardbus/adbzero?style=for-the-badge&color=8957E5)
 ![webusb](https://img.shields.io/badge/WebUSB-no%20install-3DDC84?style=for-the-badge&logo=googlechrome&logoColor=white)
 
 **ADBZero** is a browser-based Android control suite. Debloat, de-Google, mirror the
@@ -125,7 +125,7 @@ community lists are the practical part of this project.
 
 ## License
 
-Released under the [MIT license](https://opensource.org/licenses/MIT).
+Released under the [MIT license](LICENSE).
 
 *Android Debloater, Web ADB, Screen Mirroring in the browser, De-Google Android,
 Android privacy tool, ADB web terminal, F-Droid browser client.*
