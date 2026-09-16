@@ -95,13 +95,13 @@ a simulated Pixel 7 Pro.
 
 ## Under the hood
 
-<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,supabase,git" alt="React, TypeScript, Vite, Tailwind CSS, Supabase, Git">
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,git" alt="React, TypeScript, Vite, Tailwind CSS, Git">
 
 ```mermaid
 flowchart LR
   B["Chromium browser<br/>React + TypeScript"] -- "WebUSB (ADB protocol)" --> D["Android device"]
   D -. "scrcpy video stream (WebCodecs)" .-> B
-  B -- "community lists, store metadata" --> S[("Supabase")]
+  B -- "community lists, store metadata" --> S[("Database")]
 ```
 
 | Layer | What it uses |
@@ -109,7 +109,7 @@ flowchart LR
 | Device communication | [`@yume-chan/adb`](https://github.com/yume-chan/ya-webadb) over WebUSB, scrcpy protocol for mirroring |
 | Front end | React 18, TypeScript, Vite, Tailwind CSS, Zustand, Framer Motion |
 | Media | scrcpy stream decoded with WebCodecs |
-| Back end | Supabase (community debloat lists, store metadata, CMS) |
+| Back end | Database (community debloat lists, store metadata, CMS) |
 | Delivery | Progressive Web App (`vite-plugin-pwa`) — installable from the browser |
 
 Available in **13 languages**: Arabic, Bengali, German, English, Spanish, French, Hindi,
